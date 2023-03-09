@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="bg">
+背景
+<view>容器
+<view>骰子盖</view>
+<view>骰子</view>
+<view>骰子底座</view>
+<view>摇一摇按钮</view>
+</view>
+
+</view>
