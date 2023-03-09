@@ -1,9 +1,33 @@
 /**index.wxss**/
-.bg{
-    width: 100%;
+page{
     height: 100%;
+}
+.bg{
+    height: 100%;
+    width: auto;
     border: 1px solid black;
-    position: fixed;
-    flex-direction: column;
+    display: flex;
     align-items: center;
+    justify-content: center;
+}
+.content{
+    height: 90%;
+    width: 90%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.dice_cap{
+    border: 1px solid black;
+}
+.dice{
+    border: 1px solid black;
+}
+.dice_base{
+    border: 1px solid black;
+}
+.btn_shake{
+    border: 1px solid black;
 }
