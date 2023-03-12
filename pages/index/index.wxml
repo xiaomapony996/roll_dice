@@ -1,11 +1,34 @@
 <!--index.wxml-->
 <view class="bg">
 
-<view class="content">
-<view class="dice_cap">骰子盖</view>
-<view class="dice">骰子</view>
-<view class="dice_base">骰子底座</view>
-<view class="btn_shake">摇一摇按钮</view>
-</view>
+
+<view class="container" animation="{{animation}}">
+
+    <view>
+            <movable-area>
+                <movable-view direction="vertical" y="{{y}}">
+                    <view class="dice_cap">骰子盖</view>
+                </movable-view>
+            </movable-area>
+        </view>
+
+
+        <view class="dice_base">
+
+            <view class="dice">骰子</view>
+
+        </view>
 
 </view>
+
+<view class="btn_shake" bindtap="shake">摇一摇按钮</view>
+
+
+
+
+
+
+
+</view>
+
+

@@ -8,26 +8,55 @@ page{
     border: 1px solid black;
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
+
 }
-.content{
-    height: 90%;
-    width: 90%;
+.container{
+    height: 1000rpx;
     border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.dice_cap{
-    border: 1px solid black;
+movable-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500rpx;
+    width: 500rpx;
+    background-color: #ccc;
+    
 }
+movable-area {
+    height: 1000rpx;
+    width: 500rpx;
+    margin-bottom: -500rpx;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+/* .dice_cap{
+    border: 1px solid black;
+    width: 500rpx;
+    height: 600rpx;
+    margin-bottom: -200rpx;
+    background-color: red;
+} */
 .dice{
     border: 1px solid black;
+    width: 400rpx;
+    height: 500rpx;
 }
 .dice_base{
     border: 1px solid black;
+    width: 600rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: seagreen;
 }
 .btn_shake{
+    margin-top: 50rpx;
     border: 1px solid black;
 }
