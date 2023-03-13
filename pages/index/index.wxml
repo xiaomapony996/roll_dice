@@ -23,7 +23,7 @@
                 <image class="dice" style="margin-left: {{position_x5}}rpx;margin-top: {{position_y5}}rpx; position: {{position}};">5</image>
             </view>
 
-        </view>
+       </view>
 
 </view>
 

@@ -45,7 +45,7 @@ movable-area {
     background-color: red;
 } */
 .dice_container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 500rpx;
     height: 500rpx;
     z-index: 2;
