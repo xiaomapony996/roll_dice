@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<view class="bg">
+
+
+<view class="container" animation="{{animation}}">
+
+    <view>
+            <movable-area>
+                <movable-view direction="vertical" y="{{y}}">
+                    <view class="dice_cap">骰子盖</view>
+                </movable-view>
+            </movable-area>
+        </view>
+
+
+        <view class="dice_base">
+
+            <view class="dice_container">
+                <image class="dice" style="margin-left: {{position_x1}}rpx;margin-top: {{position_y1}}rpx; position: {{position}};">1</image>
+                <image class="dice" style="margin-left: {{position_x2}}rpx;margin-top: {{position_y2}}rpx; position: {{position}};">2</image>
+                <image class="dice" style="margin-left: {{position_x3}}rpx;margin-top: {{position_y3}}rpx; position: {{position}};">3</image>
+                <image class="dice" style="margin-left: {{position_x4}}rpx;margin-top: {{position_y4}}rpx; position: {{position}};">4</image>
+                <image class="dice" style="margin-left: {{position_x5}}rpx;margin-top: {{position_y5}}rpx; position: {{position}};">5</image>
+            </view>
+
+        </view>
+
+</view>
+
+<view class="btn_shake" bindtap="shake">摇一摇按钮</view>
+
+
+
+
+
+
+
+</view>
+
+

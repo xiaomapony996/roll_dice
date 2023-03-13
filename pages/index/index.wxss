@@ -1,0 +1,73 @@
+/**index.wxss**/
+page{
+    height: 100%;
+}
+.bg{
+    height: 100%;
+    width: auto;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container{
+    height: 1000rpx;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+movable-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500rpx;
+    width: 500rpx;
+    background-color: #ccc;
+    z-index: 4;
+    
+}
+movable-area {
+    height: 1000rpx;
+    width: 500rpx;
+    margin-bottom: -500rpx;
+    border: 1px solid black;
+    overflow: hidden;
+    z-index: 4;
+  }
+/* .dice_cap{
+    border: 1px solid black;
+    width: 500rpx;
+    height: 600rpx;
+    margin-bottom: -200rpx;
+    background-color: red;
+} */
+.dice_container{
+    border: 1px solid black;
+    width: 500rpx;
+    height: 500rpx;
+    z-index: 2;
+}
+.dice{
+    border: 1px solid black;
+    width: 100rpx;
+    height: 100rpx;
+    z-index: 3;
+    border-radius: 10rpx;
+}
+.dice_base{
+    border: 1px solid black;
+    width: 600rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: seagreen;
+    z-index: 1;
+}
+.btn_shake{
+    margin-top: 50rpx;
+    border: 1px solid black;
+}
