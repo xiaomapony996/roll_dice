@@ -36,7 +36,8 @@ Page({
   play_bgm:function(){
     var bgm = wx.createInnerAudioContext();
     bgm.autoplay = true;
-    bgm.src = "../video/dice_bgm.mp3";
+    bgm.src = "/pages/video/dice_bgm.mp3";
+    bgm.play();
     bgm.onPlay(function(){
       console.log('正常播放');
     });
@@ -113,4 +114,10 @@ Page({
     }
 
   },
+  onShareAppMessage() {
+    return {
+      title: '聚餐喝酒摇骰子',
+      path: 'pages/index/index'
+    }
+  }
 })

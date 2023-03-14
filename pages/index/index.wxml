@@ -30,7 +30,7 @@
 
 </view>
 
-<view class="btn_shake" bindtap="shake">摇一摇</view>
+<view class="btn_shake" bindtap="shake">摇</view>
 
 
 

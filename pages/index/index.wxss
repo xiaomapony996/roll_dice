@@ -71,13 +71,14 @@ movable-area {
 .btn_shake{
     margin-top: 100rpx;
     border: 3px solid white;
-    width: 200rpx;
+    width: 100rpx;
     height: 100rpx;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 30rpx;
+    border-radius: 100rpx;
     font-weight: bolder;
+    font-size: larger;
     color: white;
 }
 .dice_base_bg{
