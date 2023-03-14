@@ -117,7 +117,8 @@ Page({
   onShareAppMessage() {
     return {
       title: '聚餐喝酒摇骰子',
-      path: 'pages/index/index'
+      path: 'pages/index/index',
+      imageUrl:'/pages/image/share.jpg'
     }
   }
 })
