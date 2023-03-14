@@ -7,27 +7,30 @@
     <view>
             <movable-area>
                 <movable-view direction="vertical" y="{{y}}">
-                    <view class="dice_cap">骰子盖</view>
+                    <view class="dice_cap"><image class="dice_cap_bg" src="../image/cap.svg"></image></view>
                 </movable-view>
             </movable-area>
         </view>
 
 
         <view class="dice_base">
-
+            
             <view class="dice_container">
-                <image class="dice" style="margin-left: {{position_x1}}rpx;margin-top: {{position_y1}}rpx; position: {{position}};">1</image>
-                <image class="dice" style="margin-left: {{position_x2}}rpx;margin-top: {{position_y2}}rpx; position: {{position}};">2</image>
-                <image class="dice" style="margin-left: {{position_x3}}rpx;margin-top: {{position_y3}}rpx; position: {{position}};">3</image>
-                <image class="dice" style="margin-left: {{position_x4}}rpx;margin-top: {{position_y4}}rpx; position: {{position}};">4</image>
-                <image class="dice" style="margin-left: {{position_x5}}rpx;margin-top: {{position_y5}}rpx; position: {{position}};">5</image>
+                <image class="dice" style="margin-left: {{position_x1}}rpx;margin-top: {{position_y1}}rpx; position: {{position}};" src="../image/dice/dice{{dice_x1}}-{{dice_y1}}.png"></image>
+                <image class="dice" style="margin-left: {{position_x2}}rpx;margin-top: {{position_y2}}rpx; position: {{position}};" src="../image/dice/dice{{dice_x2}}-{{dice_y2}}.png"></image>
+                <image class="dice" style="margin-left: {{position_x3}}rpx;margin-top: {{position_y3}}rpx; position: {{position}};" src="../image/dice/dice{{dice_x3}}-{{dice_y3}}.png"></image>
+                <image class="dice" style="margin-left: {{position_x4}}rpx;margin-top: {{position_y4}}rpx; position: {{position}};" src="../image/dice/dice{{dice_x4}}-{{dice_y4}}.png"></image>
+                <image class="dice" style="margin-left: {{position_x5}}rpx;margin-top: {{position_y5}}rpx; position: {{position}};" src="../image/dice/dice{{dice_x5}}-{{dice_y5}}.png"></image>
+                
             </view>
+            
+            <image class="dice_base_bg" src="../image/base.svg"></image>
 
-       </view>
+        </view>
 
 </view>
 
-<view class="btn_shake" bindtap="shake">摇一摇按钮</view>
+<view class="btn_shake" bindtap="shake">摇一摇</view>
 
 
 

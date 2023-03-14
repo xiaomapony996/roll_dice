@@ -5,15 +5,16 @@ page{
 .bg{
     height: 100%;
     width: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: seagreen;
 
 }
 .container{
     height: 1000rpx;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,19 +22,19 @@ page{
 }
 movable-view {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
-    height: 500rpx;
-    width: 500rpx;
-    background-color: #ccc;
+    height: 700rpx;
+    width: 600rpx;
+    /* border: 1px solid black; */
     z-index: 4;
     
 }
 movable-area {
     height: 1000rpx;
-    width: 500rpx;
-    margin-bottom: -500rpx;
-    border: 1px solid black;
+    width: 600rpx;
+    margin-bottom: -280rpx;
+    /* border: 1px solid black; */
     overflow: hidden;
     z-index: 4;
   }
@@ -47,27 +48,43 @@ movable-area {
 .dice_container{
     /* border: 1px solid black; */
     width: 500rpx;
-    height: 500rpx;
+    height: 350rpx;
     z-index: 2;
 }
 .dice{
-    border: 1px solid black;
-    width: 100rpx;
-    height: 100rpx;
+    /* border: 1px solid black; */
+    width: 80rpx;
+    height: 80rpx;
     z-index: 3;
     border-radius: 10rpx;
 }
 .dice_base{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 600rpx;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: seagreen;
+    /* background-color: seagreen; */
     z-index: 1;
 }
 .btn_shake{
-    margin-top: 50rpx;
-    border: 1px solid black;
+    margin-top: 100rpx;
+    border: 3px solid white;
+    width: 200rpx;
+    height: 100rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30rpx;
+    font-weight: bolder;
+    color: white;
+}
+.dice_base_bg{
+    position: absolute;
+    width: 520rpx;
+}
+.dice_cap_bg{
+    height: 700rpx;
+    width: 800rpx;
 }
