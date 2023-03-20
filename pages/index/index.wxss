@@ -12,7 +12,7 @@ page{
     background-color: seagreen;
 
 }
-.container{
+.play_container{
     height: 1000rpx;
     /* border: 1px solid black; */
     display: flex;

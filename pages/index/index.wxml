@@ -2,7 +2,7 @@
 <view class="bg">
 
 
-<view class="container" animation="{{animation}}">
+<view class="play_container" animation="{{animation}}">
 
     <view>
             <movable-area>

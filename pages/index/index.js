@@ -116,7 +116,7 @@ Page({
   },
   onShareAppMessage() {
     return {
-      title: '聚餐喝酒摇骰子',
+      title: '吃饭喝酒摇骰子',
       path: 'pages/index/index',
       imageUrl:'/pages/image/share.jpg'
     }
